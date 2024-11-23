@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true })); // Add this to handle form subm
 
 // CORS configuration
 // app.use(cors({ origin: ['http://localhost:3000'], credentials: true }));
-app.use(cors({ origin: 'https://pet-buddy-frntend.vercel.app', credentials: true }));
+app.use(cors({ origin: 'https://reshadportfolio.vercel.app/', credentials: true }));
 app.use(cookieParser());
 
 // Application routes

@@ -7,6 +7,7 @@ import { VoteRoutes } from '../modules/Vote/vote.route';
 import { orderRoutes } from '../modules/order/order.routes';
 import { paymentRoutes } from '../modules/payment/payment.route';
 import { ProjectRoutes } from '../modules/Project/project.route';
+import { DesignationRoutes } from '../modules/Designation/designation.route';
 
 type TModuleRoutes = {
   path: string;
@@ -47,6 +48,10 @@ const moduleRoutes: TModuleRoutes[] = [
   {
     path: '/project',
     route: ProjectRoutes,
+  },
+  {
+    path: '/designation',
+    route: DesignationRoutes,
   },
 ];
 
